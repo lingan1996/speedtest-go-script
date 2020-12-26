@@ -33,6 +33,9 @@ yum -y install curl
 
 ### 更新
 
+2020/12/29
+- speedtest-go的官方仓库已变更，修改speedtest-go的git仓库
+
 2020/4/19
 
 - 增加了脚本内启动、停止命令
@@ -45,8 +48,7 @@ yum -y install curl
 
 请教一下如何检测Linux是否安装了go呢？
 
-在安装了go的系统下，在脚本导入了环境变量，用`which  go`检测，执行并没有返回，不在shell中正常返回
-
+直接```go version``即可
 ### 致谢
 
 - 感谢 speedtest 项目组提供优秀的测速项目
