@@ -48,7 +48,7 @@ yum -y install curl
 
 请教一下如何检测Linux是否安装了go呢？
 
-直接```go version``即可
+直接```go version```即可
 ### 致谢
 
 - 感谢 speedtest 项目组提供优秀的测速项目
