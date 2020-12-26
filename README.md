@@ -4,7 +4,7 @@
 
 ### 环境要求
 
-* 支持的操作系统：CentOS 7-8、Debian 8-10、Ubuntu 16-18
+* 支持的操作系统：CentOS 7-8、Debian 8-10、Ubuntu 16-20
 * 操作系统要求64位
 
 ### 安装
