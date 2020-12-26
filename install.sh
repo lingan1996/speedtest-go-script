@@ -85,7 +85,7 @@ function get_speedtest(){
         rm -rf $dir
     fi
     install_go
-    cd && git clone https://github.com/librespeed/speedtest speedtest
+    cd && git clone https://github.com/librespeed/speedtest-go speedtest
     cd speedtest
     # git checkout remotes/origin/go
     mkdir $dir
