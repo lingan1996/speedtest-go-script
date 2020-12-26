@@ -1,7 +1,8 @@
 #!/bin/bash
 ### 一键安装 speedtest go 版本  #
 ###    作者：fenghuang          #
-###   更新时间：2020-04-19      #
+###   updater: lingan1996   #
+###   更新时间：2020-12-26      #
 
 #导入环境变量
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/bin:/sbin
@@ -84,7 +85,7 @@ function get_speedtest(){
         rm -rf $dir
     fi
     install_go
-    cd && git clone https://github.com/librespeed/speedtest
+    cd && git clone https://github.com/librespeed/speedtest speedtest
     cd speedtest
     git checkout remotes/origin/go
     mkdir $dir
